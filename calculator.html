@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+
+
+
+
+let choixUser = prompt("Entrez votre nombre");
+let choixUserNumber = parseInt(choixUser)
+console.log(parseInt(choixUserNumber));
+
+
+
+let operator = prompt("choisissez votre opérateur. +, -, *, /,");
+
+console.log( operator );
+
+
+let userChoix = prompt("Entrez deuxieme nombre");
+let userChoixNumber = parseInt(userChoix)
+console.log(parseInt(userChoixNumber));
+
+if (operator === "+") { let result = choixUserNumber + userChoixNumber
+  console.log(result) 
+  alert(result)
+  
+} else if (operator === "-") { let result = choixUserNumber - userChoixNumber
+  console.log(result);
+  alert(result)
+  
+} else if (operator === "*") { let result = choixUserNumber * userChoixNumber
+  console.log(result);
+  alert(result)
+
+} else if (operator === "/") { let result = choixUserNumber / userChoixNumber
+  console.log(result);
+  alert(result)
+}  
+
+  </script>
+  
+</body>
+</html>
